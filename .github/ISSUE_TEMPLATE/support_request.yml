@@ -1,0 +1,18 @@
+name: Support Request
+description: Ask for help from the owning team
+title: "[Support]: "
+labels: ["support"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repo
+      placeholder: e.g., web-admin
+    validations:
+      required: true
+  - type: textarea
+    id: ask
+    attributes:
+      label: What do you need?
+    validations:
+      required: true

@@ -1,0 +1,7 @@
+{
+  "name": "Node CI (Starter)",
+  "description": "Basic Node.js CI: install, test, build.",
+  "iconName": "nodejs",
+  "categories": ["CI", "JavaScript"],
+  "filePatterns": ["package.json"]
+}

@@ -1,0 +1,31 @@
+name: Bug Report
+description: Report a defect with clear reproduction steps
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: affected
+    attributes:
+      label: Affected repo/service
+      placeholder: e.g., service-leads-api
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Include exact steps + inputs
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true

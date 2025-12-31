@@ -1,0 +1,24 @@
+name: Feature Request
+description: Propose a feature with scope and acceptance criteria
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Goal
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: ac
+    attributes:
+      label: Acceptance criteria
+      description: Bulleted list of verifiable outcomes + tests
+    validations:
+      required: true

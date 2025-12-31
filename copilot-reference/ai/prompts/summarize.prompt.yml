@@ -1,0 +1,15 @@
+name: summarize
+description: Summarize a change set for release notes
+model: gpt-4.1
+parameters:
+  temperature: 0.2
+inputs:
+  - name: diff
+    description: Git diff or PR description
+messages:
+  - role: system
+    content: "You write crisp release notes for a regulated fintech environment."
+  - role: user
+    content: |
+      Summarize the following changes as release notes (bullets), then add a risk section:
+      {{diff}}

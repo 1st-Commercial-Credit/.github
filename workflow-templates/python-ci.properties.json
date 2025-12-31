@@ -1,0 +1,7 @@
+{
+  "name": "Python CI (Starter)",
+  "description": "Basic Python CI: pip install + pytest (if present).",
+  "iconName": "python",
+  "categories": ["CI", "Python"],
+  "filePatterns": ["requirements.txt", "pyproject.toml"]
+}
